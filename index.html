@@ -11,8 +11,8 @@
     
     <div id="app">
         <ul>
-            <li>
-                <span>{{ email }}</span>
+            <li v-for="(elem, index) in emailArray">
+                <span>{{ elem }}</span>
             </li>
         </ul>
     </div>
